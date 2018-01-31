@@ -1,0 +1,413 @@
+/*******************************
+GENERAL STYLES/ FIRST PAGE
+*******************************/
+
+body,
+html {
+    font-family: "Varela";
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+#logo {
+    margin-right: 50%;
+    margin-left: 7%;
+}
+
+#img {
+    border-radius: 50%;
+    padding-bottom: 5px;
+    border: 3px solid white;
+    background-color: white;
+}
+
+#img:hover {
+    transform: scale(1.2) rotate(360deg);
+}
+
+#profile {
+    padding-top: 7%;
+    text-align: center;
+}
+
+#underHeader {
+    background-color: #72C0BA;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.profile_Text {
+    text-align: center;
+}
+
+#about {
+    padding: 10px;
+    margin: 0 5%;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 1.5em;
+}
+
+#goals {
+    padding: 10px;
+    margin: 0 5%;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 1.5em;
+}
+
+.content {
+    list-style-type: none;
+}
+
+#bottom {
+    text-align: center;
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    padding: 0 10px 10px;
+    margin: 10px;
+}
+
+.footerImage {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    padding: 0 3px;
+}
+
+.inline {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+/*******************************
+ABOUT PAGES STYLES
+*******************************/
+
+#leftSide {
+    width: 25%;
+    background-color: #dfdbdb;
+    min-height: 100vh;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#rightSide {
+    width: 75%;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    padding: 20px 75px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7.5%;
+    margin-bottom: 30px;
+}
+
+#aboutPage {
+    display: flex;
+}
+
+#imageAndName {
+    padding: 100px auto auto auto;
+}
+
+.name_About {
+    margin: 0;
+    padding: 0;
+}
+
+#profileAbout {
+    padding-top: 25%;
+    text-align: center;
+}
+
+#aboutMe {
+    margin-top: 10%;
+    text-align: center;
+    font-family: "Nunito";
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    padding: auto;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+#technologies {
+    padding: auto;
+    text-align: center;
+    font-family: "Nunito";
+    width: 90%;
+    background-color: #fff;
+    margin: 7.5% auto auto auto;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+#education {
+    margin-top: 10%;
+    text-align: center;
+    font-family: "Nunito";
+    width: 90%;
+    background-color: #fff;
+    margin: 7.5% auto auto auto;
+    padding: auto;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+#workExperience {
+    text-align: center;
+    font-family: "Nunito";
+    width: 90%;
+    background-color: #fff;
+    margin: 7.5% auto auto auto;
+    padding: auto;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+progress[value] {
+    border: none;
+    width: 100%;
+    height: 10px;
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset;
+    color: #07cb79;
+    position: relative;
+    margin: 0 0 1.5em;
+}
+
+.text {
+    text-align: left;
+    margin: 0.25em;
+}
+
+.value {
+    text-align: right;
+    float: right;
+    margin: 0;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset;
+}
+
+progress[value]::-webkit-progress-value {
+    position: relative;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    border-radius: 3px;
+}
+
+#head {
+    background-color: #72C0BA;
+}
+
+#tech {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.progress-bar {
+    width: 40%;
+    margin: auto;
+}
+
+#address {
+    line-height: 0;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    margin: 20px auto 0;
+}
+
+.icons-right {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto 0;
+    padding: 0;
+}
+
+#leftSide h4 {
+    margin: 0;
+}
+
+#leftSide h3 {
+    margin: 0 auto;
+}
+
+#rightSide h3 {
+    margin-top: 5px;
+}
+
+#leftSide h2 {
+    text-align: center;
+}
+
+#hobbies {
+    text-align: center;
+}
+
+.hobbies {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+#aboutPageNav {
+    display: flex;
+}
+
+#aboutPageContent {
+    min-height: calc(100vh - 65px);
+}
+
+#leftSide h5 {
+    margin: 2px 2px 30px;
+    padding: auto;
+}
+
+#contactbody {
+    margin-top: 10%;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactIcons {
+    width: 20px;
+    height: 20px;
+}
+
+.aboutContact {
+    margin: 0;
+    padding: 10px;
+}
+
+
+/*******************************
+CONTACT PAGE STYLES
+*******************************/
+
+#contactme {
+    list-style: none;
+    padding: auto;
+    margin: auto;
+}
+
+#contactEmail a {
+    background-image: url("email.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+#contactTwitter a {
+    background-image: url("twitter.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+#contactGithub a {
+    background-image: url("github.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    margin: 0;
+    padding-left: 30px;
+    text-align: left;
+}
+
+#contactFacebook a {
+    background-image: url("facebook.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+#contactPhone a {
+    background-image: url("phone.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+#contactLinkedin a {
+    background-image: url("linkedin.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+#contactMedium a {
+    background-image: url("medium.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+.aboutContact li a {
+    width: 20px;
+    height: 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+#imgContact {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#left {
+    padding: 10px;
+    margin: 0 10%;
+}
+
+#right {
+    padding: 10px;
+    margin: 0 10% 0 5%;
+}
