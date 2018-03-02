@@ -1,0 +1,58 @@
+html {
+    background: linear-gradient(to bottom right, #542437 0%, #CDB380 100%) 100% no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    width: 3rem;
+    height: 3rem;
+    font-family: 'Lato';
+    font-size: 16px;
+    background: none;
+    color: #CDB380;
+    border: none;
+    cursor: pointer;
+    transition: color 300ms ease-in-out;
+}
+
+#content {
+    background: #343838;
+    box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin: 3.5% 37%;
+    text-align: center;
+    padding: 20px;
+}
+
+#view {
+    font-size: 20px;
+    padding: 3rem / 2.5 3rem / 3;
+    border: 0;
+    text-align: right;
+    color: #CDB380;
+    border-bottom: 3px solid #5E6F8C;
+    box-shadow: 0 5px 21px -5px rgba(0, 0, 0, 0.3);
+    background: #343838;
+    width: 100%;
+    margin: 20px 0 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footerImage {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    padding: 0 5px;
+}
+
+.inline {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+}

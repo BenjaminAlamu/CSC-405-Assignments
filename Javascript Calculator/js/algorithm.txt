@@ -1,0 +1,75 @@
+
+//Read input
+Create a temp variable and an empty array
+
+If keypress is an integer{
+    append to temp variable
+}
+
+else if keypress is special operator{ //Sin,cos,tan,hyp,factorial,log
+
+    if prevoius element is an operand{
+        apply special function to the operand
+    }
+
+    else {
+        Display Error
+    }
+
+}
+
+else if keypress is an operator{
+    add temp to array
+    add operator to array
+    clear temp variable
+}
+
+//Convert infix to postfix
+
+Loop through the array
+
+if array element is numeric{
+    add element to postfix string
+}
+else if array element is operator{
+    while((stack is not empty) and (stackTop has higher precendence than array element) and (top of stack is not equal to opening bracket)){
+        append stackTop to the postfix string
+        pop stack
+    }
+    push array element
+}
+
+else if array element is opening paranthesis{
+    push to the array
+}
+
+else if array element is closing paranthesis{
+    while(stack is not empty and stack top is not an openingParanthesis){
+        append stacktop to postfix sttring
+        pop stack
+    }
+    pop stack //Removes the opening parenthesis
+}
+
+
+
+//Evaluate postfix expression
+Create a stack
+
+Loop through postfix string
+
+if (postfixString element is an operand){
+    push postfixString element to stack
+}
+
+else if (postfixString element is an operator){
+    op1 = pop();
+    op2 = pop();
+    result = perform operation with postfixString element, op1,op2)
+    push result
+}
+
+while(stack is not empty){
+    append stackTop to the postfix string
+        pop stack
+}
